@@ -1,0 +1,129 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+    text-align: center;
+    color:#ffffff;
+}
+
+h1, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h5, h6{
+    margin: 0 0;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    color: #fdcfdf;
+    font-weight: normal;
+}
+
+h3{
+    color:#ea86b6;
+}
+p{
+    color: #40514E;
+}
+/******************Class Selector**********************************************/
+/*********Header*******/
+.header{
+    background-color: #fbbedf;
+    padding: 2% 10%;
+}
+
+.header a{
+    color:#ffffff;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+.header-information{
+    padding: 2% 10%;
+}
+.div-information-header{
+    text-align: center;
+}
+.div-big-header,.div-nav{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.div-nav{
+    margin-left: 50px;
+}
+.background-image{
+    background-image: url("../Images/background2.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 18% 0;
+    width: auto;
+}
+
+.div-information{
+    padding: 3% 15% 7%;
+    text-align: justify;
+    color: #40514E;
+}
+.div-information-image{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+
+/***************MAIN***********************/
+.main{
+    padding: 0 10% 2%;
+}
+.cake-img-right{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+}
+
+.price-row-right{
+    width: 50%;
+    margin: 70px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.cake-img {
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+.price-row-left{
+    text-align: left;
+    width: 50%;
+    margin: 70px auto;
+    line-height: 2;
+}
+
+
+.div-contact-us{
+    padding: 3% 10% 7%;
+    margin-bottom: 250px;
+}
+.div-contact-us h3{
+    text-align: left;
+}
+.div-contact-us p{
+    text-align: left;
+}
+
+.map{
+    float: left;
+    margin: 0 40px;
+}
+.phone-image, .envelope-image{
+    padding-right: 10px;
+}
+/*********Footer*******/
+.footer{
+    background-color: #fca3cc;
+    padding: 2% 15%;
+}
+.footer i {
+    padding: 20px;
+}
